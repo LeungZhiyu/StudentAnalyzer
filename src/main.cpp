@@ -81,7 +81,7 @@ void printStatistics(const vector<Student>& student){
             sum+=s.getScore();
         }
         double mean=sum*1.0/student.size();
-        cout<<"平均分为:"<<mean<<endl;
+        cout<<"平均分为:S"<<mean<<endl;
     }
 }
 
@@ -114,6 +114,6 @@ int main(){
         cout<<"csv文件输出失败"<<endl;
         return 1;
     }
-
+    //程序结束
     return 0;
 }
