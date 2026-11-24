@@ -1,0 +1,16 @@
+#cmake编译生成目录
+build/
+
+#程序运行结果
+output/
+
+#编译生成文件
+myexe
+.o
+.obj
+
+#临时文件
+.tmp
+.log
+
+request.txt
