@@ -82,6 +82,15 @@ void printStatistics(const vector<Student>& student){
         }
         double mean=sum*1.0/student.size();
         cout<<"平均分为:S"<<mean<<endl;
+        int cnt=0;
+        double percent=0.0;
+        for(const Student& s : student){
+            if(s.getScore()>=60){
+                cnt++;
+            }
+        }
+        percent=cnt/student.size();
+        cout<<"合格人数为:"<<cnt<<"合格率为:"<<percent<<endl;
     }
 }
 
